@@ -39,13 +39,20 @@ public class Note {
         return textNote;
     }
 
+    public void setTextNote(String textNote) {
+        this.textNote = textNote;
+    }
+
     public void setDate(String date) {
         this.date = date;
+    }
+    public String getDate(){
+        return date;
     }
 
 
     @Override
     public String toString() {
-        return String.format("Заметка № %s :\nЗаголовок: %s,\nФормулировка: %s,\nДата создания: %s", id, heading, textNote, date);
+        return String.format("Заметка № %s . Заголовок: %s. Формулировка: %s. Дата создания: %s.", id, heading, textNote, date);
     }
 }

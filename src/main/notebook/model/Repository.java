@@ -1,8 +1,9 @@
-package personal.model;
+package model;
 
 import java.util.List;
 
 public interface Repository {
-    List<User> getAllUsers();
-    String CreateUser(User user);
+    List<Note> getAllNotes();
+    String CreateNote(Note note);
+    String NewVersionNote(Note note);
 }

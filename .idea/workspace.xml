@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15effb91-bafc-4c0b-8ee7-ef495f6666d2" name="Changes" comment="" />
+    <list default="true" id="15effb91-bafc-4c0b-8ee7-ef495f6666d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/FileOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/FileOperationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/NoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/NoteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/RepositoryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/RepositoryFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/views/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/views/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/views/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/views/ViewUser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LQBpJyJGrUwqXOzas1Nlrkg7NV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +46,36 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Борисович/Desktop/Обучение_на_GB/NoteBook/src/main/notebook/model",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Борисович\Desktop\Обучение_на_GB\NoteBook\src\main\notebook\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="NoteBook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +86,16 @@
       <updated>1675793613644</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,7 +1,7 @@
 package model;
 
 public class NoteMapper {
-    public String map(Note note) {
+    public static String map(Note note) {
         return String.format("%s,%s,%s,%s", note.getId(), note.getHeading(), note.getTextNote(), note.getDate());
     }
 

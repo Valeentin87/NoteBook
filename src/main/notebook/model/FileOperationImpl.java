@@ -1,4 +1,4 @@
-package personal.model;
+package model;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -46,7 +46,7 @@ public class FileOperationImpl implements FileOperation {
         return lines;
     }
 
-    public void saveAllLines(List<String> lines) {
+        public void saveAllLines(List<String> lines) {
         try (FileWriter writer = new FileWriter(fileName, false)) {
             for (String line : lines) {
                 // запись всей строки
@@ -59,4 +59,11 @@ public class FileOperationImpl implements FileOperation {
             System.out.println(ex.getMessage());
         }
     }
+
+    @Override
+    public void saveNewLine(String newLine) {
+
+    }
+
+
 }
