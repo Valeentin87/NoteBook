@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15effb91-bafc-4c0b-8ee7-ef495f6666d2" name="Changes" comment="">
+    <list default="true" id="15effb91-bafc-4c0b-8ee7-ef495f6666d2" name="Changes" comment="реализация редакттирования заметки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/notebook/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/FileOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/FileOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/FileOperationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/NoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/NoteMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/notebook/model/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/notebook/model/RepositoryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/RepositoryFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/views/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/views/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/notebook/views/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/views/ViewUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675793613644</updated>
     </task>
+    <task id="LOCAL-00001" summary="реализация редакттирования заметки">
+      <created>1675809017553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675809017553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="реализация редакттирования заметки" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализация редакттирования заметки" />
   </component>
 </project>

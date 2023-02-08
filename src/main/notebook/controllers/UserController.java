@@ -18,8 +18,8 @@ public class UserController {
         repository.CreateNote(note);
     }
 
-    public String updateNote(Note note) {
-        return repository.NewVersionNote(note);
+    public void updateNote(Note note) {
+        repository.NewVersionNote(note);
     }
 
 

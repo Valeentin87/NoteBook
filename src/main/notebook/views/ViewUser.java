@@ -18,8 +18,10 @@ public class ViewUser {
         Commands com = Commands.NONE;
 
         while (true) {
-            String command = prompt("Введите команду:\nДобавить заметку - CREATE\nПрочитать заметку - READ\nВыйти - EXIT\n" +
-                    "отредактировать заметку - UPDATE\n");
+            String command = prompt("************** Добро пожаловать в записную книжку *************\n" +
+                    "Введите команду:\nДобавить заметку:\n\t\t\t\t - CREATE\nПрочитать заметку:\n\t\t\t\t" +
+                    " - READ\nВыйти:\n\t\t\t\t - EXIT\n" +
+                    "Отредактировать заметку:\n\t\t\t\t - UPDATE\nПоле для ввода команды: ");
             com = Commands.valueOf(command);
             if (com == Commands.EXIT) return;
             switch (com) {

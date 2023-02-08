@@ -46,11 +46,23 @@ public class RepositoryFile implements Repository {
     }
 
     @Override
-    public String NewVersionNote(Note note) {
+    public void NewVersionNote(Note note) {
         note.setHeading(views.ViewUser.prompt("Введите новый текст заголовка: "));
         note.setTextNote(views.ViewUser.prompt("Введите новый текст заметки: "));
         note.setDate(views.ViewUser.prompt("Введите новую дату заметки: "));
-       return model.NoteMapper.map(note);
+        List<Note> notes = getAllNotes();
+        for (Note item: notes) {
+            if(item.getId().equals(note.getId())){
+                item.setDate(note.getDate());
+                item.setTextNote(note.getTextNote());
+                item.setHeading(note.getHeading());
+            }
+        }
+        List<String> lines = new ArrayList<>();
+        for (Note item: notes) {
+            lines.add(mapper.map(item));
+        }
+        fileOperation.saveAllLines(lines);
     }
 
 
