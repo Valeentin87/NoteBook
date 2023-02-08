@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15effb91-bafc-4c0b-8ee7-ef495f6666d2" name="Changes" comment="завершил с редактированием заметки">
-      <change afterPath="$PROJECT_DIR$/src/main/notebook/model/SaveModification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/notebook/views/CommandsSave.java" afterDir="false" />
+    <list default="true" id="15effb91-bafc-4c0b-8ee7-ef495f6666d2" name="Changes" comment="ДОБАВИЛ УДАЛЕНИЕ ЗАМЕТКИ И РАЗЛИЧНЫЙ ВАРИАНТ ПОДГОТОВКИ ДАННЫХ ДЛЯ ОТПРАВКИ (ХРАНЕНИЯ)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/notebook/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/FileOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/FileOperationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/RepositoryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/RepositoryFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notebook/views/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/views/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/notebook/model/SaveModification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/model/SaveModification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/notebook/views/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notebook/views/ViewUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675880695759</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ДОБАВИЛ УДАЛЕНИЕ ЗАМЕТКИ И РАЗЛИЧНЫЙ ВАРИАНТ ПОДГОТОВКИ ДАННЫХ ДЛЯ ОТПРАВКИ (ХРАНЕНИЯ)">
+      <created>1675890020316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675890020316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="реализация редакттирования заметки" />
     <MESSAGE value="завершил с редактированием заметки" />
-    <option name="LAST_COMMIT_MESSAGE" value="завершил с редактированием заметки" />
+    <MESSAGE value="ДОБАВИЛ УДАЛЕНИЕ ЗАМЕТКИ И РАЗЛИЧНЫЙ ВАРИАНТ ПОДГОТОВКИ ДАННЫХ ДЛЯ ОТПРАВКИ (ХРАНЕНИЯ)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДОБАВИЛ УДАЛЕНИЕ ЗАМЕТКИ И РАЗЛИЧНЫЙ ВАРИАНТ ПОДГОТОВКИ ДАННЫХ ДЛЯ ОТПРАВКИ (ХРАНЕНИЯ)" />
   </component>
 </project>
