@@ -16,12 +16,15 @@ public class ViewUser {
 
     public void run(){
         Commands com = Commands.NONE;
-
+        CommandsSave commandsSave = CommandsSave.NONE;
         while (true) {
             String command = prompt("************** Добро пожаловать в записную книжку *************\n" +
                     "Введите команду:\nДобавить заметку:\n\t\t\t\t - CREATE\nПрочитать заметку:\n\t\t\t\t" +
-                    " - READ\nВыйти:\n\t\t\t\t - EXIT\n" +
-                    "Отредактировать заметку:\n\t\t\t\t - UPDATE\nПоле для ввода команды: ");
+                    " - READ\nУдалить заметку:\n\t\t\t\t - DELETE\n" +
+                    "Подготовить к отправке:\n\t\t\t\t - SAVE\n"+
+                    "Выйти:\n\t\t\t\t - EXIT\n" +
+                    "Отредактировать заметку:\n\t\t\t\t - UPDATE\n" +
+                    "Поле для ввода команды: ");
             com = Commands.valueOf(command);
             if (com == Commands.EXIT) return;
             switch (com) {
@@ -49,9 +52,6 @@ public class ViewUser {
                     try {
                         Note note = userController.readNote(id1);
                         System.out.println(note);
-                        //note.setHeading(prompt("Введите новый текст заголовка: "));
-                        //note.setTextNote(prompt("Введите новый текст заметки: "));
-                        //note.setDate(prompt("Введите новую дату заметки: "));
                         userController.updateNote(note);
                         System.out.println("Заметка отредактирована");
 
@@ -59,6 +59,40 @@ public class ViewUser {
                         throw new RuntimeException(e);
                     }
                     break;
+                case DELETE:
+                    System.out.println("Ниже указан список имеющихся заметок: ");
+                    userController.viewAllNotes();
+                    String id2 = prompt("наберите порядковый номер заметки какую хотите удалить: ");
+                    try {
+                        userController.deleteNote(id2);
+                        System.out.println("Заметка под номером "+id2+" успешно удалена");
+                    } catch (Exception e){
+                        throw new RuntimeException(e);
+                    }
+                    break;
+                case SAVE:
+                    String commandSave = prompt("***** Выберите вариант обработки данных для отправки (сохранения) ******\n" +
+                            "Сохранить каждую заметку в отдельном фале:\n" +
+                            "\t\t\t\t\t\t - SAVEEACHNOTE\n" +
+                            "Сохранить записную книжку в архивном файле:\n" +
+                            "\t\t\t\t\t\t - SAVETOZIP\n" +
+                            "Отправить записную книжку на адрес электронной почты:\n" +
+                            "\t\t\t\t\t\t - SENDTOWEB\n" +
+                            "Выйти на уровень выше:\n" +
+                            "\t\t\t\t\t\t - EXIT\nПоле для ввода команды: ");
+                    commandsSave = CommandsSave.valueOf(commandSave);
+                    if (commandsSave == CommandsSave.EXIT) break;
+                    switch (commandsSave){
+                        case SAVEEACHNOTE:
+                            userController.saveEach();
+                            break;
+                        case SAVETOZIP:
+                            userController.saveZip();
+                            break;
+                        case SENDTOWEB:
+                            userController.sendWeb();
+                    }
+
             }
         }
     }

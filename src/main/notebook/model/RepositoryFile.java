@@ -65,5 +65,26 @@ public class RepositoryFile implements Repository {
         fileOperation.saveAllLines(lines);
     }
 
+    @Override
+    public void delNoteRepo(String id) {
+        int idDel = Integer.parseInt(id);
+        int base = 0;
+        List<Note> notes = getAllNotes();
+        for (Note note: notes) {
+            base = Integer.parseInt(note.getId());
+            if(base == idDel){
+                notes.remove(note);
+            }
+            else if(base > idDel){
+                note.setId(String.valueOf(base-1));
+            }
+        }
+        List<String> lines = new ArrayList<>();
+        for (Note item: notes) {
+            lines.add(mapper.map(item));
+        }
+        fileOperation.saveAllLines(lines);
+    }
+
 
 }
